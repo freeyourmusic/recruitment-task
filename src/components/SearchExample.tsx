@@ -36,18 +36,18 @@ interface SearchExampleProps {
 
 export function SearchExample({ jwtToken }: SearchExampleProps) {
   // FIRST TASK
-  // Using hooks, create ability to search for music tracks using function `searchMusic`
+  // Using hooks, create ability to search for music tracks using function `searchMusic` (src/utils/searchMusic.ts)
   // Requirements:
   // 1. Should search only after user typed 3 characters
-  // 2. Should only search every 500ms between user typing (Lodash has throttle function available)
+  // 2. Should only search every 500ms between user typing
   // 3. Please use provided types (SearchResult type)
 
   // SECOND TASK
-  // 1. Write endpoint (pages/api/searchLimit.ts file), that returns search limit of 5
+  // 1. Write endpoint (pages/api/searchLimit.ts file), that returns default limit for search (example, should return limit 5 from API)
   // 2. Use this returned limit in searchMusic function
   return (
     <>
-      {/* Present here input & search results using `react-bootstrap`  */}
+      
     </>
   );
 }
